@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>wave to earth</title>
+    <link rel="stylesheet" href="wavetoearthstyle.css">
+    <link rel="shortcut icon" href="./Images/wte-icon.jpg" type="image/x-icon">
+    <style>
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header-container">
+            <div class="label-container">
+                <label class="wte-label" id="wavetoearth-label"><strong>Wave To Earth 🌟🌊</strong></label>
+            </div>
+        </div>
+        <div class="album-container">
+            <div class="love-container">
+                <img class="love-album" src="./Images/wte-love.jpg" alt="Image 1" style="display: inline-block; margin-right: 10px; width: 258.5px;">
+                <div class="lovetitle-container">
+                    <p class="love-title" id="love-title" onclick="changeLoveTitle(this, '☁️ love.')">
+                        <span>♪</span> <span>love.</span></p>
+                </div>
+                    <div class="love-audio-container">
+                        <audio id="love-audio-box" autoplay loop controls src="Audio/wte-love.mp3"></audio>
+                    </div>
+            </div>
+            <div class="seasons-container">
+                <img class="seasonsalbum" src="Images/wte-seasons.jpg" alt="Image 2" style="display: inline-block; margin-right: 10px; width: 258.5px;">
+                <div class="seasonstitle-container">
+                    <p class="seasons-title" id="seasons-title" onclick="changeSeasonsTitle(this, '❄️ seasons')">
+                        <span>♪</span> <span>seasons</span></p>
+                </div>
+                    <div class="seasons-audio-container">
+                        <audio id="seasons-audio-box" loop controls src="Audio/wte-seasons.mp3"></audio>
+                    </div>
+            </div>
+            <div class="daisy-container">
+                <img class="daisy-album" src="Images/wte-daisy.jpg" alt="Image 3" style="display: inline-block; margin-right: 10px; width: 258.5px;">
+                <div class="daisytitle-container">
+                    <p class="daisy-title" id="daisy-title" onclick="changeDaisyTitle(this, '🌿 daisy.')">
+                        <span>♪</span> <span>daisy.</span></p>
+                </div>
+                    <div class="daisy-audio-container">
+                        <audio id="daisy-audio-box" loop controls src="Audio/wte-daisy.mp3"></audio>
+                    </div>
+            </div>
+            <div class="light-container">
+                <img class="light-album" src="Images/wte-bonfire.jpg" alt="Image 4" style="display: inline block; margin-right: 10px; width: 258.5px;">
+                <div class="lighttitle-container">
+                    <p class="light-title" id="light-title" onclick="changeLightTitle(this, '🎧 bonfire')">
+                        <span>♪</span> <span>bonfire</span></p>
+                </div>
+                    <div class="light-audio-container" style="margin-top: -5.7px;">
+                        <audio loop controls src="Audio/bonfire.mp3" id="daisy-audio-box"></audio>
+                    </div>
+            </div>
+        </div>
+        <div class="info-container" style="display: none;">
+            <div class="info-frames" style="margin-left: 20px">
+                <div class="title" id="title">
+                    <label class="band-title" for=""><span style="font-size: xx-large; color: rgba(240, 228, 214, 0.938);">
+                        <b>wave to earth</b></span> <span id="headphones-emoji" class="headphones-emoji" style="font-size: xx-large;">🎧</span></label>
+                        <div class="korean-container">
+                            <p class="korean-label" ><span class="korean-text">Korean: </span> <span class="korean-translated">웨이브투어스</span></p>
+                        </div>
+                        <div class="introduction-box">
+                            <div class="idcardImage-container">
+                                <img class="idcard-img" src="Images/id-card.png">
+                                <div class="introduction-container">
+                                    <p class="introduction-label"><b>Introduction</b></p>
+                                    <div class="infoband-container">
+                                        <p class="info-text"> <mark>- wave to earth (웨이브투어스)</mark> is a three-member boy band under Wavy. <br>
+                                            They made their debut on August 23, 2019 with their first single 'wave', <br> followed by EPs 'wave 0.01' and 'summer flows 0.02'.
+                                            After joining the <br> 'Wavy Seoul' label, they released singles 'nouvelle vague' and 'calla.'.
+                                        </p>
+                                    <div class="userImage-container">
+                                        <img src="Images/user.png" class="user-img">
+                                        <div class="members-container">
+                                            <p class="members-label"><b>Members</b></p>
+                                            <div class="img-container">
+                                                <div class="firstimage">
+                                                    <img class="kimdaniel-img" src="Images/kimdaniel-img.webp">
+                                                </div>
+                                                <div style="margin-top: 10px;" class="kimdaniel-hyperlink-container">
+                                                    <a style="color: black; margin-left: 65px;" 
+                                                    href="https://kpopping.com/profiles/idol/Kim-Daniel" target="_blank">Kim Daniel</a>
+                                                </div>
+                                                <div class="secondimage">
+                                                    <img class="johncha-img" src="Images/johncha-img.webp">
+                                                </div>
+                                                <div style="margin-left: 490px; margin-top: 10px;" class="johncha-hyperlink-container">
+                                                    <a style="color: black;" href="https://kpopping.com/profiles/idol/John-Cha" target="_blank">John Cha</a>
+                                                </div>
+                                                <div class="thirdimage">
+                                                    <img src="Images/dongq-img.webp" class="dongq-img">
+                                                </div>
+                                                <div style="margin-left: 890px; margin-top: 10px;" class="dongq-hyperlink-container">
+                                                    <a style="color: black;" target="_blank" href="https://kpopping.com/profiles/idol/Dong-Q">Dong Q</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="logo-container">
+                        <img src="Images/wte-logo.webp" alt="logo" class="logo">
+                        <p class="logo-text"><strong>LOGO</strong></p>
+                    </div>
+            </div>
+          </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,370 @@
+body, body::before {
+    background-image: url('https://i.pinimg.com/564x/4c/ed/f0/4cedf0948b78b4db05f6bdb0bee4d5f3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body, .label {
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: "";
+    filter: blur(2.5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+.album-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seasonsalbum {
+    margin-top: 30px;
+    margin-left: -5px;
+    width: 260px;
+    padding: 10px;
+    border: 1px solid rgb(164, 211, 211);
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px rgba(182, 240, 240, 0.7);
+    cursor: pointer;
+    transition: all 0.854s;
+}
+
+
+.love-album{
+    padding: 10px;
+    border: 1px solid rgba(233, 248, 248, 0.7);
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px rgba(233, 248, 248, 0.7);
+    cursor: pointer;
+    transition: all 0.854s;
+}
+
+.daisy-album{
+    padding: 10px;
+    border: 1px solid rgba(151, 236, 211, 0.7);
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px rgba(151, 236, 211, 0.7);
+    transition: all 0.54s;
+    cursor: pointer;
+}
+
+.light-album{
+    padding: 10px;
+    border: 1px solid rgb(248, 177, 177);
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px rgb(248, 177, 177);
+    cursor: pointer;
+}
+
+.main{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.header-container{
+    background-color: #aac9dda6;
+    padding-bottom: 40.2px;
+    padding-top: 40.2px;
+    min-height: 8.5vh;
+    color: rgb(218, 226, 226);
+    text-align: center;
+}
+
+.label-container {
+    margin-top: 20.2px;
+}
+
+.wte-label{
+    font-size: 28px;
+    padding: 6px;
+    border: 1px  solid gray;
+    box-shadow: 10px 10px 10px rgba(83, 82, 82, 0.657);
+    border-radius: 4px;
+    transition: all 0.754s;
+}
+
+.wte-label:hover{
+    font-size: 31px;
+}
+
+.album-container{
+    display: flex;
+    margin-top: 30px;
+}
+
+.love-container{
+    margin-top: 22px;
+    margin-left: 80px;
+}
+
+.light-container{
+    margin-top: 48px;
+    margin-right: 70px;
+}
+
+.daisy-container{
+    margin-top: 42px;
+    margin-right: 10px;
+}
+
+.love-title{
+    text-align: center;
+    margin-left: -17px;
+    font-size: 26px;
+    color: rgba(241, 240, 238, 0.979);
+    transition: font-size 0.764s ease;
+}
+
+.seasons-title{
+    text-align: center;
+    margin-left: -20px;
+    font-size: 26px;
+    color: rgba(241, 240, 238, 0.979);
+    transition: font-size 0.754s ease;
+    
+}
+
+.daisy-title{
+    text-align: center;
+    margin-left: -17px;
+    font-size: 26px;
+    color: rgba(241, 240, 238, 0.979);
+    transition: font-size 0.754s ease;
+
+}
+
+.light-title{
+    text-align: center;
+    margin-left: -17px;
+    font-size: 26px;
+    color: rgba(241, 240, 238, 0.979);
+    transition: font-size 0.754s ease;
+}
+
+.love-audio-container, .seasons-audio-container, .daisy-audio-container, .light-audio-container{
+    margin-left: -10px;
+}
+
+.love-audio-box, .seasons-audio-box, .daisy-audio-box{
+    background: transparent;
+    box-shadow: 90px 90px 10px rgba(0, 0, 0, 0.786);
+}
+
+.info-container{
+    width: 1200px;
+    min-height: 720px;
+    margin-top: 100px;
+    margin-left: 210px;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    border-top-left-radius: 20px;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    background: transparent;
+    backdrop-filter: blur(4px);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.586);
+}
+
+.band-title{
+    margin-top: 5px;
+    transition: all 0.754s;
+    padding: 7px;
+    padding-top: 14.7px;
+    border-radius: 20px;
+    border-top: 1px solid rgba(83, 82, 82, 0.657);
+    box-shadow: 10px 10px 10px rgba(83, 82, 82, 0.657);
+}
+
+.band-title:hover{
+    padding: 9px;
+    border-radius: 25px;
+    font-size: 30px;
+    
+}
+
+.logo-container{
+    margin-top: -700px;
+    margin-left: 965px;
+}
+
+.logo{
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 10px 10px 10px rgba(83, 82, 82, 0.657);
+    cursor: pointer;
+    transition: all 0.754s;
+}
+
+.logo:hover{
+    width: 208px;
+    cursor: crosshair;
+}
+
+.logo-text{
+    text-align: center;
+    margin-left: -22px;
+    color: rgba(240, 228, 214, 0.938);
+    font-size: 18px;
+}
+
+.korean-container{
+    margin-left: 25px;
+    font-size: large;
+    
+}
+
+.korean-label{
+    font-size: 15px;
+}
+
+.korean-text{
+    color: black;
+    font-size: 23px;
+    
+}
+
+.korean-translated{
+    text-decoration: underline;
+}
+
+.introduction-box{
+    margin-left: 18px;
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+.idcard-img{
+    width: 25px;
+}
+
+.introduction-container{
+    margin-top: -60px;
+    margin-left: 40px;
+    
+}
+
+.user-img{
+    width: 25px;
+    margin-left: -40.5px;
+}
+
+.members-container{
+    margin-top: -58px;
+}
+
+.img-container{
+    margin-top: 60px;
+}
+
+.firstimage{
+    border-radius: 20px;
+}
+
+.kimdaniel-img{
+    border-radius: 8px;
+    width: 252px;
+}
+
+.secondimage{
+    border-radius: 20px;
+    margin-top: -295px;
+    margin-left: 408px;
+}
+
+.johncha-img{
+    border-radius: 18px;
+    width: 252px;
+}
+
+.thirdimage{
+    border-radius: 20px;
+    margin-top: -295px;
+    margin-left: 800px;
+}
+
+.dongq-img{
+    border-radius: 18px;
+    width: 252px;
+}
+
+
+
+
+
+@media screen and (max-width: 870px) {
+
+    .album-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .info-container {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+
+    .album-container {
+        flex-direction: column;
+        white-space: nowrap;
+    }
+    
+    .label-container{
+        margin-left: -5px;
+    }
+
+    .love-container {
+        flex-basis: 100%;
+    }
+
+    .love-album, .love-audio-container{
+        flex-basis: 100%;
+        margin-left: -30px;
+        width: 2px;
+    }
+
+    .light-container{
+        flex-basis: 100%;
+        margin-left: 63px;
+    }
+
+    .info-container {
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width: 1470px) {
+
+    .album-container{
+        margin-left: 50px;
+    }
+
+    .love-container,
+    .seasons-container, .daisy-container{
+        flex-basis: 100%;
+        margin-left: 10px;
+    }
+
+    .info-container{
+        flex-basis: 100%;
+        margin-left: -1px;
+    }
+
+}
+
